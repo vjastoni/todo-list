@@ -1,0 +1,28 @@
+.list_container {
+  margin-top: 20px;
+  display: flex;
+  height: 70px;
+  width: 600px;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.task {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+.delete {
+  height: 30px;
+  width: 30px;
+}
+
+.list_container.completed {
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+}
